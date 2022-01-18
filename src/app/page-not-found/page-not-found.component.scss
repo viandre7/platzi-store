@@ -1,0 +1,29 @@
+.container {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.div {
+  text-align: center;
+}
+
+h3 {
+   font-size: 25px;
+}
+
+
+.btn {
+  background-color: rgb(46, 101, 202);
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
