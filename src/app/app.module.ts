@@ -11,7 +11,8 @@ import { ExponentialPipe } from './exponential.pipe';
 import { HighlightDirective } from './highlight.directive';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
-import { ProductsComponent } from './products/products.component'
+import { ProductsComponent } from './products/products.component';
+import { DemoComponent } from './demo/demo.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import { ProductsComponent } from './products/products.component'
     HighlightDirective,
     HomeComponent,
     ContactComponent,
-    ProductsComponent
+    ProductsComponent,
+    DemoComponent
   ],
   imports: [
     BrowserModule,
